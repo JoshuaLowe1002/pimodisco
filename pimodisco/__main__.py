@@ -13,11 +13,6 @@ try:
 except ImportError:
     print('Product search not available.')
 
-try:
-    token = "Mzg2NTUyNTA1NzE2MzEwMDE2.DQVikA.o7TkoDys9t2X0r1-eUxpRo-uYMc"
-except Exception:
-    print('Please put Discord bot token in token.txt.')
-    exit(-1)
 
 client = discord.Client()
 
@@ -50,7 +45,7 @@ async def on_ready():
 
 
 def main():
-    client.run(token)
+    client.run(bot.TOKEN)
 
 
 if __name__ == '__main__':

@@ -14,7 +14,7 @@ except ImportError:
     print('Product search not available.')
 
 try:
-    token = open('token.txt').read().strip()
+    token = "Mzg2NTUyNTA1NzE2MzEwMDE2.DQVikA.o7TkoDys9t2X0r1-eUxpRo-uYMc"
 except Exception:
     print('Please put Discord bot token in token.txt.')
     exit(-1)
